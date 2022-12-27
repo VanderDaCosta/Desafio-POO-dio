@@ -1,3 +1,10 @@
+/**
+ * Um sistema simples para modificar
+ * as informações da tv,
+ * aqui está todas a funções que
+ * estão sendo modificadas no aquivo
+ * "Usuario"
+ */
 public class SmartTv {
     boolean ligada = false;
     int canal = 1;

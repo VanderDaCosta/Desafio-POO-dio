@@ -1,3 +1,8 @@
+/**
+ * <h1>Usuario</h1>
+ * É um arquivo que tem modificações
+ * diretas no arquivo "SmartTv"
+ */
 public class Usuario {
     public static void main (String[] args)throws Exception{
         // A forma de criar uma classe, um dos metodos de atributo
