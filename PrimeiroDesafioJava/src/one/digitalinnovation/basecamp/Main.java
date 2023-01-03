@@ -58,6 +58,25 @@ public class Main {
 
         System.out.println((i1 > i2) || (f2 < f1));
         System.out.println((i1 + i2) < (f2 - f1) && true);
+        /*
+            =======================================================
+            Exemplificanddo como o sistema fica com
+            o metodo de criação de variaveis cada vez mais complexas
+         */
+
+        double salarioMensal = 1370.63;
+        double mediaSalario = 1274.30;
+        int quantidadsDependentes = 4;
+        int mediaDependentes = 2;
+        System.out.println((salarioMensal < mediaSalario) && (quantidadsDependentes >= mediaDependentes));
+
+        boolean salarioBaixo = salarioMensal < mediaSalario;
+        boolean muitosDependentes = quantidadsDependentes >= mediaDependentes;
+        System.out.println((salarioBaixo) && (muitosDependentes));
+
+        boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
+        System.out.println("recebe o auxilio? " + recebeAuxilio);
+
     }
 
 }
