@@ -1,4 +1,4 @@
-public class filha2 extends Mae {
+public class ClasseFilha2 extends ClasseMae {
     @Override
     void metodo1 (){
         System.out.println("Metodo 1 da classe filha 2");

@@ -1,4 +1,4 @@
-public class Mae {
+public class ClasseMae {
     void metodo1(){
         System.out.println("Metódo 1 da classe Mãe");
     }

@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Compra {
+public class Compra {
+    //dependencia pois esse metodo depende da classe CUPOM
+    void finalizar(Cupom cupom){
+
+    }
 }

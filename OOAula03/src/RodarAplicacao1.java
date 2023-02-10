@@ -1,4 +1,4 @@
-public class RodarAplicacao {
+public class RodarAplicacao1 {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
 
@@ -9,6 +9,6 @@ public class RodarAplicacao {
 
         //DOWNCAST - precisamos dizer para qual é o "filho" que queremos transformar o "pai"
         // Gerente gerente = new Funcionario();
-        Faxineiro faxineiro1 =(Faxineiro) new Funcionario();
+        //Faxineiro faxineiro1 =(Faxineiro) new Funcionario();
     }
 }

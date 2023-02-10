@@ -1,4 +1,4 @@
-public class filha1 extends Mae  {
+public class ClasseFilha1 extends ClasseMae {
     //override serve para sobreescrever
     @Override
     void metodo1(){
